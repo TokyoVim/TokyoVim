@@ -1,0 +1,8 @@
+.ccls-cache
+.session/
+.luarc.json
+__pycache__
+lua/user
+lazy-lock.json
+stylua
+stylua-linux-x86_64.zip
