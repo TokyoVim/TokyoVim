@@ -24,41 +24,47 @@ return {
         disabled_filetypes = {
           "alpha",
           "dash",
-          statusline = {},
-          winbar = {},
         },
-        ignore_focus = {},
-        always_divide_middle = true,
+        ignore_focus = {
+          "NvimTree",
+        },
         globalstatus = true,
-        refresh = {
-          statusline = 1000,
-          tabline = 1000,
-          winbar = 1000,
-        },
       },
       sections = {
-        lualine_a = { { icon = "", "mode" } },
-        lualine_b = { { icon = "", "branch" } },
-        lualine_x = { "diagnostics" },
+        lualine_a = {
+          {
+            "mode",
+            icon = "",
+            section_separators = { left = "" },
+            fmt = function(str)
+              return str:sub(1, 1)
+            end,
+          },
+        },
+        lualine_b = {
+          {
+            "branch",
+            icon = "",
+          },
+        },
+        lualine_c = {
+          {
+            file_icon,
+            file_status = false,
+            symbols = {
+              unnamed = "No Name",
+              newfile = "New",
+            },
+          },
+          {
+            "diff",
+          },
+        },
+
+        lualine_x = { { "diagnostics", update_in_insert = true } },
         lualine_y = { { api.get_lsp_clients } },
         lualine_z = { { "progress", icon = "" } },
-        lualine_c = {
-          { file_icon, symbols = { modified = "", readonly = "", unnamed = "No Name", newfile = "" } },
-          "diff",
-        },
       },
-      inactive_sections = {
-        lualine_a = {},
-        lualine_b = {},
-        lualine_c = { "filename" },
-        lualine_x = { "location" },
-        lualine_y = {},
-        lualine_z = {},
-      },
-      tabline = {},
-      winbar = {},
-      inactive_winbar = {},
-      extensions = {},
     }
   end,
   config = function(_, opts)

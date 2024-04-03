@@ -120,11 +120,11 @@ return {
       },
 
       sources = {
-        { name = "nvim_lsp", priority = 100 },
-        { name = "luasnip", keyword_length = 1, priority = 75 },
-        { name = "nvim_lua", priority = 50 },
+        { name = "nvim_lsp", priority = 10000 },
+        { name = "nvim_lua", priority = 5000 },
+        { name = "path", priority = 1000 },
+        { name = "luasnip", keyword_length = 1, priority = 500 },
         { name = "buffer", keyword_length = 2, priority = 50 },
-        { name = "path", priority = 25 },
       },
 
       window = {
