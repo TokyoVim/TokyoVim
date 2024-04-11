@@ -1,27 +1,17 @@
 <p align="center">
     <a href="https://github.com/TokyoVim/TokyoVim/releases">
-    <img
-        alt="Release"
-        src="https://img.shields.io/github/v/release/TokyoVim/TokyoVim.svg?style=for-the-badge&logo=github&color=F2CDCD&logoColor=D9E0EE&labelColor=363A4F">
-        </a>
+        <img alt="Release" src="https://img.shields.io/github/v/release/TokyoVim/TokyoVim.svg?style=for-the-badge&logo=github&color=F2CDCD&logoColor=D9E0EE&colorA=363A4F">
+    </a>
     <a href="https://github.com/TokyoVim/TokyoVim/stargazers">
-    <img
-        alt="Stars"
-        src="https://img.shields.io/github/stars/TokyoVim/TokyoVim?colorA=363A4F&colorB=B7BDF8&logo=adafruit&logoColor=D9E0EE&style=for-the-badge">
+        <img alt="Stars" src="https://img.shields.io/github/stars/TokyoVim/TokyoVim?colorA=363A4F&colorB=B7BDF8&logo=adafruit&logoColor=D9E0EE&style=for-the-badge">
     </a>
     <a href="https://github.com/TokyoVim/TokyoVim/issues">
-    <img
-        alt="Issues"
-        src="https://img.shields.io/github/issues-raw/TokyoVim/TokyoVim?colorA=363A4f&colorB=F5A97F&logo=github&logoColor=D9E0EE&style=for-the-badge">
+        <img alt="Issues" src="https://img.shields.io/github/issues-raw/TokyoVim/TokyoVim?colorA=363A4f&colorB=F5A97F&logo=github&logoColor=D9E0EE&style=for-the-badge">
     </a>
     <a href="https://github.com/TokyoVim/TokyoVim/contributors">
-    <img
-        alt="Contributors"
-        src="https://img.shields.io/github/contributors/TokyoVim/TokyoVim?colorA=363A4F&colorB=B5E8E0&logo=git&logoColor=D9E0EE&style=for-the-badge">
+        <img alt="Contributors" src="https://img.shields.io/github/contributors/TokyoVim/TokyoVim?colorA=363A4F&colorB=B5E8E0&logo=git&logoColor=D9E0EE&style=for-the-badge">
     </a>
-    <img
-        alt="Code Size"
-        src="https://img.shields.io/github/languages/code-size/TokyoVim/TokyoVim?colorA=363A4F&colorB=DDB6F2&logo=gitlfs&logoColor=D9E0EE&style=for-the-badge">
+    <img alt="Code Size" src="https://img.shields.io/github/languages/code-size/TokyoVim/TokyoVim?colorA=363A4F&colorB=DDB6F2&logo=gitlfs&logoColor=D9E0EE&style=for-the-badge">
 </p>
 
 </b><br>Welcome to official **Tokyo 🌊** Repository! Carefully designed with usability and functionality in mind , keep the lightness on resources! All-in-one for back-end and front-end developers.</p>
