@@ -1,5 +1,3 @@
-local data = vim.fn.stdpath "data" .. "/tokyovim"
-
 vim.opt.mouse = "a"
 vim.opt.tabstop = 2
 vim.opt.number = true
