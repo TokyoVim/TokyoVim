@@ -1,13 +1,7 @@
-local api = require "tokyovim.core.utils.api"
 local session = require "tokyovim.core.utils.session"
 local buffer = require "tokyovim.core.utils.buffer"
-local config = require "tokyovim.config"
 
 local command = vim.api.nvim_create_user_command
-
-command("TokyoVimUpdate", function()
-  require("tokyovim.core.updater").update()
-end, { nargs = "*", desc = "TokyoVim update" })
 
 command("TokyoVimSaveSession", function()
   session.save_session()

@@ -39,7 +39,7 @@ return {
           },
         },
         diagnostics_indicator = function(count, level)
-          local icon = level:match "error" and "" or ""
+          local icon = ({ error = "", warn = "", hint = "", info = "" })[level] or ""
           return icon .. " " .. count
         end,
       },
