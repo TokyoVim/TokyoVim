@@ -1,16 +1,5 @@
 # Changelog
 
-## [2.0.0](https://github.com/TokyoVim/TokyoVim/compare/v1.0.0...v2.0.0) (2024-04-21)
-
-
-### ⚠ BREAKING CHANGES
-
-* rename load func
-
-### Bug Fixes
-
-* rename load func ([f5245c6](https://github.com/TokyoVim/TokyoVim/commit/f5245c63b733577fbd2abab1eb06ebb658c38948))
-
 ## 1.0.0 (2024-04-11)
 
 
