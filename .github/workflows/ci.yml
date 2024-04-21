@@ -2,11 +2,12 @@ name: ci
 on:
   push:
     paths-ignore:
-      - "**/readme.md"
       - "lua/tokyovim/core/lockfile.lua"
-      - ".github/workflows/**"
+      - ".github/**"
       - ".stylua.toml"
       - ".gitignore"
+      - "LICENSE"
+      - "CHANGELOG.md"
     branches:
       - main
 jobs:

@@ -2,13 +2,13 @@ local M = {}
 
 local config = require "tokyovim.config"
 
-M.load_config = function()
+function M.load_config()
   for _, name in pairs { "options", "autocmds", "mappings", "commands" } do
     require("tokyovim.config." .. name)
   end
 end
 
-M.load_user_config = function()
+function M.load_user_config()
   for _, name in pairs { "options", "autocmds", "mappings", "commands", "highlights" } do
     local file_path = vim.api.nvim_get_runtime_file("lua/config/" .. name .. ".lua", false)[1]
     if file_path then
@@ -17,7 +17,7 @@ M.load_user_config = function()
   end
 end
 
-M.laod = function()
+function M.load()
   config.init()
   M.load_config()
   M.load_user_config()
