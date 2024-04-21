@@ -7,7 +7,6 @@ on:
       - ".stylua.toml"
       - ".gitignore"
       - "LICENSE"
-      - "CHANGELOG.md"
     branches:
       - main
 jobs:
