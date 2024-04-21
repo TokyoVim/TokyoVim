@@ -2,7 +2,7 @@ local M = {}
 
 local config = require "tokyovim.config"
 
-function M.load_config ()
+function M.load_config()
   for _, name in pairs { "options", "autocmds", "mappings", "commands" } do
     require("tokyovim.config." .. name)
   end
