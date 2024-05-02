@@ -24,6 +24,11 @@ return {
         error = "",
       },
     },
+    modified = {
+      enable = true,
+      show_on_dirs = false,
+      show_on_open_dirs = false,
+    },
     filters = {
       dotfiles = false,
     },
@@ -57,11 +62,13 @@ return {
           file = true,
           folder = true,
           folder_arrow = true,
+          modified = true,
           git = true,
         },
         glyphs = {
           default = "",
           symlink = "",
+          modified = "●",
           bookmark = "",
           folder = {
             arrow_closed = "",
