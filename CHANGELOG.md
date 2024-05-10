@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.0](https://github.com/TokyoVim/TokyoVim/compare/v2.0.0...v2.1.0) (2024-05-02)
+
+
+### Features
+
+* **nvim-tree:** show modified ([6b17e55](https://github.com/TokyoVim/TokyoVim/commit/6b17e557276ccf2a3cec117b67ff1197e4f4d1cd))
+
 ## 1.0.0 (2024-04-11)
 
 
