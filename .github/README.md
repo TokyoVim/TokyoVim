@@ -1,3 +1,7 @@
+# ⚠ Archived
+
+Unfortunately, due to lack of time, we decided to shelve the project. It was a great learning project, but we can't afford to keep it going at the moment.
+
 <p align="center">
     <a href="https://github.com/TokyoVim/TokyoVim/releases">
         <img alt="Release" src="https://img.shields.io/github/v/release/TokyoVim/TokyoVim.svg?style=for-the-badge&logo=github&color=F2CDCD&logoColor=D9E0EE&colorA=363A4F">
